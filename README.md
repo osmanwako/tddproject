@@ -1,8 +1,9 @@
 # TDD Project
+
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>TEST DRIVEN DESIGN README</b></h3>
+  <h3><b>TEST DRIVEN Development README</b></h3>
 
 </div>
 
@@ -36,7 +37,6 @@
 
 > In this project, I'm putting in practice a test design project in Ruby.
 
-
 The below requirements are implemented:-
 
 Sure! Here's an alternative way to express the requirements:
@@ -54,6 +54,7 @@ Sure! Here's an alternative way to express the requirements:
    - For any other case, convert `N` to a string and return it.
 
 The provided phrases have been rephrased to ensure clarity and readability.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -64,7 +65,6 @@ The provided phrases have been rephrased to ensure clarity and readability.
     <li><a href="https://ruby.org/">Ruby</a></li>
     <li><a href="https://respec.com//">Respec</a></li>
   </ul>
-
 
 <!-- Features -->
 
@@ -88,29 +88,29 @@ The provided phrases have been rephrased to ensure clarity and readability.
 
 In order to run this project you need:
 
+- code editors
+- command line interface or git bash
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
+```sh
+  git clone https://github.com/osmanwako/tddproject.git
+```
 
 ### Install
 
-Install this  project with:
-
-
+Install this project with:
 
 ```sh
-  cd TDD Project 
-  gem install
+  cd tddproject
+  gem install rspec
 ```
-
 
 ### Usage
 
 To run the project, execute the following command:
-
 
 Example command:
 
@@ -122,12 +122,9 @@ Example command:
 
 To run tests, run the following command:
 
-
-
 ```sh
-  rspec spec/
+  rspec spec
 ```
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,12 +144,11 @@ To run tests, run the following command:
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zoumtechmassa/)
 
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Add more function methods**
+- **Add more function methods**
 - **Provide live demo video**
 - **Variety of arguments in methods**
 
@@ -163,7 +159,6 @@ To run tests, run the following command:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
