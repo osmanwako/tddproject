@@ -1,9 +1,10 @@
-# School Library
+# TDD Project
 
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>School Library</b></h3>
+  <h3><b>TEST DRIVEN Development README</b></h3>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -14,40 +15,66 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-    - [Install](#install)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [School Library] <a name="about-project"></a>
+# 📖 [ TDD Project] <a name="about-project"></a>
 
-**[School Library]** is a guide for how to effectively incorporate modules into your classes in Ruby.
+> In this project, I'm putting in practice a test design project in Ruby.
+
+The below requirements are implemented:-
+
+Sure! Here's an alternative way to express the requirements:
+
+1. Define a class named `Solver`.
+
+2. Inside the `Solver` class, implement a method named `factorial` that takes an integer argument `N` and calculates the factorial of `N`. The factorial of a non-negative integer `N` is the product of all integers from 1 to `N`. The special case is that the factorial of 0 is defined as 1. This method should only accept non-negative integers. If a negative integer is provided, it should raise an exception.
+
+3. Implement a method named `reverse` inside the `Solver` class that takes a string argument `word` and returns the reversed version of the `word`. For example, if the `word` is "hello", the method should return "olleh".
+
+4. Within the `Solver` class, define a method called `fizzbuzz` that accepts an integer argument `N` and constructs a string based on the following rules:
+   - If `N` is divisible by 3, return the string "fizz".
+   - If `N` is divisible by 5, return the string "buzz".
+   - If `N` is divisible by both 3 and 5, return the string "fizzbuzz".
+   - For any other case, convert `N` to a string and return it.
+
+The provided phrases have been rephrased to ensure clarity and readability.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Ruby
+> I used the following technologies in this design.
+
+  <ul>
+    <li><a href="https://ruby.org/">Ruby</a></li>
+    <li><a href="https://respec.com//">Respec</a></li>
+  </ul>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[# Person class]**
-- **[# Student class]**
-- **[# Teacher class]**
-- **[# Book class]**
-- **[# Rental class]**
-- **[# Unit Test]**
+> The program entails the following.
+
+- **Test factorails**
+- **Test reverse string**
+- **Test fizzbuzz**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,30 +82,29 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+> Follow the following simple steps to run the project.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- [Ruby](https://www.ruby-lang.org/en/) installed and running.
-- You should be able to use [IRB](<https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features>).
+- code editors
+- command line interface or git bash
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```
-git clone https://github.com/osmanwako/schoolibrary.git
+```sh
+  git clone https://github.com/osmanwako/tddproject.git
 ```
 
 ### Install
 
 Install this project with:
 
-```
- cd schoolibrary
-
+```sh
+  cd tddproject
   gem install rspec
 ```
 
@@ -86,26 +112,25 @@ Install this project with:
 
 To run the project, execute the following command:
 
-```
-ruby main.rb
+Example command:
+
+```sh
+  ruby {file_name.rb}
 ```
 
-### Run test
+### Run tests
 
 To run tests, run the following command:
 
+```sh
+  rspec spec
 ```
-rspec spec
-```
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [You can deploy this project using: Heroku]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Osman Wako**
 
@@ -119,13 +144,13 @@ rspec spec
 - Twitter: [@zoumaniguimass1](https://twitter.com/zoumaniguimass1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zoumtechmassa/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Create Database]**
+- **Add more function methods**
+- **Provide live demo video**
+- **Variety of arguments in methods**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,24 +160,6 @@ rspec spec
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/osmanwako/Schoolibrary/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project please give it a ⭐️
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank everyone at Microverse for their support.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -160,5 +167,3 @@ I would like to thank everyone at Microverse for their support.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
