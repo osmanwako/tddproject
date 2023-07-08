@@ -1,7 +1,4 @@
 class Solver
-  # def initialize
-  # end
-
   def factorial(number)
     return raise ArgumentError if number.negative?
     return 1 if number.zero?
